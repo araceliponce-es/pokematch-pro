@@ -1,4 +1,4 @@
-# 🎮 PokéMatch Pro - Juego de Memoria Pokémon
+# 🎮 PokéMatch Pro - Juego de Memoria Pokémon - Araceli
 
 Proyecto desarrollado para el módulo **Desarrollo Web en Entorno Cliente (DWEC)** del Ciclo Superior de **Desarrollo de Aplicaciones Web (DAW)**.
 
