@@ -1,3 +1,5 @@
+import { shuffleCards } from "./helpers.js";
+
 // 1. Constantes y Variables de Estado
 const TOTAL_PAIRS = 6;
 
@@ -7,6 +9,21 @@ let hasFlippedCard = false;
 let lockBoard = false;
 let firstCard = null;
 let secondCard = null;
+
+// Array base con 6 parejas de Pokémon (12 elementos en total)
+const pokemonList = [
+  'pikachu', 'pikachu',
+  'charmander', 'charmander',
+  'bulbasaur', 'bulbasaur',
+  'squirtle', 'squirtle',
+  'jigglypuff', 'jigglypuff',
+  'snorlax', 'snorlax'
+];
+console.log("Array original:", [...pokemonList]);
+
+const shuffledPokemon = shuffleCards(pokemonList);
+
+console.log("Array barajado (Fisher-Yates):", shuffledPokemon);
 
 // 2. Selección de elementos del DOM
 const movesElement = document.getElementById('moves-count');
